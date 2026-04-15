@@ -11,10 +11,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class operator {
 	ObjectMapper mapper = new ObjectMapper();
 	private target target;
+	private String path = "src/main/resources/data.json";
 	//data.json読み込み
 	void readjson() {
 		try {
-			this.target = mapper.readValue(new File("data.json"), target.class);
+			this.target = mapper.readValue(new File(path), target.class);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -23,7 +24,7 @@ public class operator {
 	//data.json書き込み
 	void writejson() {
 		try {
-			mapper.writerWithDefaultPrettyPrinter().writeValue(new File("data.json"), target);
+			mapper.writerWithDefaultPrettyPrinter().writeValue(new File(path), target);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
