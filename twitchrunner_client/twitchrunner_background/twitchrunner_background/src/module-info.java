@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module twitchrunner_background {
-}
