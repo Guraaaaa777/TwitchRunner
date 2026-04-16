@@ -2,7 +2,7 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\fujit\program\git\twitchrunner\twitchrunner_client\twitchreunner\target\twitchreunner-0.0.1-SNAPSHOT.jar</jar>
+  <jar>C:\Users\fujit\program\git\twitchrunner\twitchrunner_client\twitchreunner\target\twitchrunner-0.0.1-SNAPSHOT.jar</jar>
   <outfile>C:\Users\fujit\program\git\twitchrunner\app\twitchrunner.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
