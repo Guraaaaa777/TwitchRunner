@@ -1,4 +1,4 @@
-package twitchrunner_background;
+package twitchrunner;
 
 import java.io.File;
 import java.io.IOException;

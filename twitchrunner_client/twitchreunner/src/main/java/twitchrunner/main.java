@@ -1,4 +1,4 @@
-package twitchrunner_background;
+package twitchrunner;
 
 public class main {
 	public static void main(String[] args) {
