@@ -1,4 +1,4 @@
-package twitchrunner_background;
+package twitchrunner;
 
 import java.util.ArrayList;
 import java.awt.Desktop;

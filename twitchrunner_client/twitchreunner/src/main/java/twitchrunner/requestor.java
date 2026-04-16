@@ -1,4 +1,4 @@
-package twitchrunner_background;
+package twitchrunner;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class requestor {
 	public static void setserver() {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			server = mapper.readValue(new File("src/main/resources/server.json"), server.class);
+			server = mapper.readValue(new File("server.json"), server.class);
 		} catch (IOException e) {e.printStackTrace();}
 		System.out.println("ip:"+server.serveripaddress+" port:"+server.serverport);
 	}
