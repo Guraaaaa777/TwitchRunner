@@ -13,5 +13,6 @@
 # about it
 first i think the app need server.
 bad when i watch Twitch API reffernce, i discovery standalone app flow.
+comming soon...
 # HOWTO
 ### app
